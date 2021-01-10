@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    background: papayawhip;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.box1 {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    width: 240px;
+    padding: 5px;
+}
+
+.sub {
+    border: none;
+    color: black;
+    background: floralwhite;
+}
+
+.sub:hover {
+    color: white;
+    background: black;
+    transition: 0.3s ease;
+}
+p {
+    color: red;
+}

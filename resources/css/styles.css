@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    color: #494949;
+    box-sizing: border-box;
+}
+
+body{
+    background: antiquewhite;
+    font-family: Tahoma;
+}
+
+.container {
+    background: white;
+    width: 750px;
+    margin: 35px auto;
+    display: flex;
+    border: 1px solid #cccccc;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+}
+
+.sing-in h2 {
+    width: 50%;
+    text-align: center;
+}
+
+.sign-up h2 {
+    text-align: center;
+}
+
+.sign-up {
+    display: flex;
+    border-right: 1px solid black;
+    flex-direction: column;
+    padding: 5px;
+    width: 50%;
+}
+
+.sing-in {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+label {
+    padding-top: 2px;
+    padding-right: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 10px/10px;
+    padding: 10px 10px;
+    height: 50px;
+    color: black;
+    background: navajowhite;
+    text-transform: uppercase;
+    align-self: center;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+input{
+    border: 1px solid gray;
+    border-radius: 5px/5px;
+    padding: 10px 10px;
+    font-size: 15px;
+    transition: all 0.5s;
+    transform: translateX(0px);
+}
+
+input:focus {
+    border: 1px solid darkslategray;
+    transform: translateX(10px);
+    width: 350px;
+}
+
+p {
+    color: red;
+}
+
+button:hover{
+    opacity: .80;
+    font-weight: bold;
+}
+input::-webkit-input-placeholder { color: darkgrey; }
+
+
+.forgot:hover {
+   color: black;
+}

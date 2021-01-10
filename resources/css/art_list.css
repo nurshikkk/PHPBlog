@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.header {
+    background: black;
+}
+
+nav {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    font-family: Tahoma;
+    background: papayawhip;
+}
+
+/*nav:before{*/
+/*    content: '';*/
+/*    display: block;*/
+/*    height: 50px;*/
+/*    width: 100%;*/
+/*    background: black;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    z-index: -1;*/
+/*}*/
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+    display: flex;
+}
+
+ul li {
+    padding: 25px 25px;
+    position: relative;
+    border-right: 1px solid gray;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+button:hover {
+    background: darkgrey;
+    color: black;
+    transition: all 0.4s;
+}
+
+button {
+    display: flex;
+    padding: 10px 10px;
+    height: 50px;
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    float: right;
+    top: 0;
+    border: none;
+    font-weight: bold;
+}
+
+ul li:hover {
+    background: darkgrey;
+    color: black;
+    transition: all 0.4s;
+    box-shadow: 1px 5px 10px -5px black;
+}
+
+ul li:first-child {
+    border-left: 1px solid gray;
+}
+
+ul li:last-child {
+    border-right: 1px solid gray;
+}
+
+li ul {
+    left: 0;
+    top: 100%;
+    position: absolute;
+    min-width: 100px;
+    display: none;
+    height: 40px;
+
+}
+
+li ul li {
+    border: 1px solid gray;
+    background: black;
+    z-index: 2;
+}
+
+li:hover ul {
+    display: block;
+}
+
+.icon {
+    position: relative;
+    width: 55px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    background-color: white;
+    -webkit-box-sizing: border-box;
+}
+
+.icon:hover {
+    background-color: gray;
+    border-color: white;
+    transition: 0.4s;
+}
+
+.auth {
+    align-self: center;
+    margin-left: 10px;
+}
+
+.profile {
+    align-self: center;
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+.profile:hover {
+    color: #cccccc;
+}
+
+.exit {
+    align-self: center;
+    position: relative;
+    margin-left: 40px;
+    outline: none;
+}
+
+form {
+    display: flex;
+}
+
+.prof {
+    align-self: center;
+    display: flex;
+
+}
+
+.box-body {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+
+.box-banner {
+    display: flex;
+    width: 480px;
+    font-size: 16px;
+    background: papayawhip;
+    border: 2px solid black;
+    box-sizing: border-box;
+    box-shadow: 1px 5px 10px -5px black;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.banner {
+    position: relative;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.banner-description {
+    padding: 5px;
+}
+
+.regi {
+    outline: none;
+    color: burlywood;
+    text-decoration: none;
+}
+
+.regi:hover {
+    color: coral;
+}
+
+.box-articles {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    left: 25%;
+}
+
+.article1 {
+    margin-top: 20px;
+}
+
+.cr-art {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding-right: 15px;
+    margin-left: 15px;
+}
+
+.cr-art:hover {
+    color: gray;
+}
+
+.bb {
+    display: flex;
+    justify-content: center;
+}
+caption {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.content {
+    width: 750px;
+}
+
+.upload {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid black;
+    background: mediumaquamarine;
+    box-shadow: 1px 5px 10px -5px black;
+}
+.upload:hover{
+    color: gray;
+    transition: 0.4s;
+}
+.delete {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid black;
+    background: mediumaquamarine;
+    box-shadow: 1px 5px 10px -5px black;
+}
+.delete:hover{
+    color: gray;
+    transition: 0.4s;
+}
+
+.none {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+}
